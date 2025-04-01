@@ -1,0 +1,44 @@
+body {
+    font-family: 'Comic Sans MS', cursive, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+header {
+    background-color: #ff85a2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #ff85a2;
+    font-size: 1.8em;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li:before {
+    content: "🐾: ";
+    color: #ff85a2;
+}
+
+a {
+    color: #ff85a2;
+    text-decoration: none;
+}
